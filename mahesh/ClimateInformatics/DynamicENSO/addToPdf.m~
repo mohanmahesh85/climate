@@ -1,0 +1,11 @@
+function addToPdf( dirname, pdfname )
+
+d = dir( dirname );
+
+input = {};
+for ii = 1:length(d)
+    input = {input, d(i).name};
+end
+
+appen
+end

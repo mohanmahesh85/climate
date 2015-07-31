@@ -1,0 +1,15 @@
+Please find attached, the results of clustering using two different methods
+1. Normalized cuts
+2. Agglomerative clustering using SLIC superpixels
+
+
+Description of the results :
+1. The results comprise of 1 for every month of every year. For any given <month,year> the left sub figure indicates the sea surface temperature anomalies obtained from the mlost dataset. 
+2. The sub figure on the right indicates the clustering obtained. The clustering is obtained based on the geographical location and the magnitude of the anomaly at the given point. 
+3. Once the clustering is obtained, the color of the cells belonging to a particular cluster is set to reflect the average temperature anomaly for that cluster. Also a box drawn in magenta represents the Nino 3.4 box
+
+Parameters in these methods:
+1. Dependence on k (number of clusters)
+For both methods, the initial number of clusters was set to a reasonably larger number (e.g. 30). This results in an oversegmentation of the image. The unnecessary clusters were then merged agglomeratively to obtain the displayed result. This eliminated the need to specify the number of clusters apriori.
+
+Another parameter that can be tuned to obtain different clusters is the smoothness parameter, which controls how similar the elements in a cluster have to be.

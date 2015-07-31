@@ -1,0 +1,6 @@
+1. Breaking up clusters could be ok. Turn off spatial constraints
+2. Get rid of land temp anomalies
+3. Hierarchical clustering. Where to set k?
+4. Example of using to make a prediction
+
+
